@@ -14,7 +14,7 @@
 			<header>
 				<h1>Arcades Assemble</h1><h3>signup for fun</h3>
 			</header>
-			<div class="signupForm">
+			<div id="signupForm">
 				<form id="signup-form">
 					<input id="firstName" class="firstName" type="text" name="firstName" placeholder="Enter your First Name" autocomplete="off" required><br>
                     <input id="middleName" class="middleName" type="text" name="middleName" placeholder="Enter your Middle Name" autocomplete="off"><br>
@@ -26,6 +26,12 @@
 					<div class="err-message"><span id="err-message"></span></div> <br>
                     <input id="signup" class="submit" type="submit" name="signup" value="Sign Up"><br>
                 </form>
+			</div>
+			<div id="verify-email">
+				<span>A verification link has been sent to provided mail id.</span>
+			</div>
+			<div id="redirect-login">
+				<span>This page will be redirected in : <span id="countDown">5 secs</span></span>
 			</div>
 		</div>
         <div class="account-exists">

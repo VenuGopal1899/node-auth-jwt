@@ -38,7 +38,7 @@ a {
 .container {
 	overflow: hidden;
 }
-.signupForm {
+#signupForm {
 	margin: 1em auto 0 auto;
 	width: 300px;
 	border: 10px solid white;
@@ -47,6 +47,25 @@ a {
 	height: 440px;
 
 }
+#verify-email{
+	display: none;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 170px;
+	color: white;
+	font-weight: bold;
+}
+#redirect-login{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	display: none;
+	padding-top: 40px;
+}
+#countDown{
+	color: coral;
+}
+
 header h1 {
     color: rgba(240,240,240,1);
 	font-family: 'Bungee Shade', cursive;;
@@ -150,12 +169,18 @@ input:focus {
 	font-size: 18px;
 	text-align: center;
 	padding-top: 25px;
+	color: white;
+}
+
+.account-exists a:hover{
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 .err-message{
 	text-align: center;
 	color: palegoldenrod;
-	font-size: 17px;
+	font-size: 20px;
 	padding-top: 10px;
 }
 /*<============================================================>*/
