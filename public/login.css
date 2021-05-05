@@ -44,7 +44,7 @@ a {
 	border: 10px solid white;
 	padding: 20px;
 	width: 22.8em;
-	height: 250px;
+	height: 270px;
 
 }
 header h1 {
@@ -115,7 +115,7 @@ input:focus {
 	background: rgba(35,35,35, 0.6);
 	color: rgba(220,220,220,1);
 	padding: 0 0 0 0;
-	margin: 2.5em 0 0 7em;
+	margin: 7px 0 0 7em;
 	width: 8em;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -146,6 +146,12 @@ input:focus {
 	background: rgba(223,32,77, 0.8);
 }
 
+.err-message{
+	text-align: center;
+	color: palegoldenrod;
+	font-size: 20px;
+	padding-top: 10px;
+}
 
 /*<============================================================>*/
 /*<========Media queries for other displays and devices========>*/
