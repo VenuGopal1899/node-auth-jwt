@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/VenuGopal1899/node-auth-jwt#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "consolidate": "^0.16.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
     "mustache": "^4.2.0",
     "nodemon": "^2.0.7"
