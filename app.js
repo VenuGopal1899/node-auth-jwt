@@ -84,5 +84,5 @@ app.get('/homepage', (req, res) => res.render('homepage.html'));
 
 // Listen for requests
 app.listen(2000, ()=>{
-    console.log('Listening for requests on port 4000...');
+    console.log('Listening for requests on port 2000...');
 })
